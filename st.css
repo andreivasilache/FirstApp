@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgb(139, 103, 103);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1 rem 0 3rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.styling{
+    font-weight: 800;
+    color: lightsalmon;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div.input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: rgb(102, 85, 85);
+    width: 450px;
+    font-size: 1.25rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: lightsalmon;
+    margin: 0.25px;
+    cursor: pointer;
+}
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+.item_input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 250px;
+    font-size: 1.1rem;
+}
+.editButton{
+    font-size: 1.1rem;
+    margin: 0 0.75rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: lime;
+    border:none;
+}
+.removeButton{
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: maroon;
+    border:none;
+}
+
+
+
