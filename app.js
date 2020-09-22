@@ -1,8 +1,10 @@
 //Put the elments
 const addButton = document.querySelector('.addButton');
+// A1: Stop using var instead of let or const.
 var input = document.querySelector('.input');
 const container = document.querySelector('.container');
 
+// A2: Do not add useless comments. We can see that there is defined a class.
 //class
 class Item {
         constructor(itemName) {
